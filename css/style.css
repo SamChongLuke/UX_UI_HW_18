@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FDF6F0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+nav.inlineBlock {
+  
+    float: right;
+}
+
+ul.inlineBlock {
+    display: inline-flex;
+    list-style: none;
+    width: 465px;
+    justify-content: space-evenly;
+}
+
+section.heroImg {
+    height: 743px;
+}
+
+#heroImageLeft {
+width: 772px;
+
+}
+
+#heroImageRight {
+    display: flex;
+    float: right;
+}
+h1 {
+    font-family: 'Abril Fatface';
+    font-size: 36px;
+    font-weight:lighter;
+    margin-left: 50px;
+}
+
+p {
+    margin-left: 50px;
+}
+h2 {
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+    font-weight:lighter;
+}
+
+h1.skills {
+    margin-top: 38px;
+}
+h3.technicalSkills {
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+    font-weight:lighter;
+    margin-left: 150px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+h3.languageSkills {
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+    font-weight:lighter;
+    margin-left: 100px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+button {
+    width: 315px;
+    height: 62px;
+}
+section.skills {
+    height: 460px;
+    background-color: #AEDECF;
+    display: inline-flex;
+    width: 100%;
+}
+
+.technicalSkills{
+    list-style: none;
+    margin-left: 150px;
+}
+
+.languageSkills {
+    list-style: none;
+    margin-left: 100px;
+}
+section.experience {
+    height: 680px;
+    background-color: #B8D6F0;
+}
+
+h1.experience {
+padding-top: 48px;
+}
+
+p.experience {
+    margin-top: 20px;
+}
+
+h1.education {
+    padding-top: 48px;
+}
+
+.education {
+    padding-bottom: 28px;
+}
+section.footer {
+    background-color: #AEDECF;
+    vertical-align: top;
+}
+
+ul.footerInlineBlock {
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
