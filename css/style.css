@@ -8,6 +8,9 @@ body {
     font-weight: lighter;
 
 }
+.logo {
+    margin-left: 50px;
+}
 header.navigation {
     padding-top: 16px;
 }
@@ -36,17 +39,17 @@ button {
     border-color: #333333;
     border-radius: 5px;
     margin-left: 50px;
-
+    border-width: 0.5px;
+    font-weight: lighter;
+    box-shadow: 5px 5px rgb(163, 163, 163);
 }
 
-#heroImageLeft {
-width: 772px;
-
+img.hamburgerMenu  {
+    padding-right: 50px;
+    display: none;
 }
-
-#heroImageRight {
-    display: flex;
-    float: right;
+#heroImage {
+    padding-right: 50px;
 }
 h1 {
     font-family: 'Abril Fatface';
@@ -54,8 +57,23 @@ h1 {
     font-weight:lighter;
     margin-left: 50px;
     font-weight: lighter;
+    padding-bottom: 48px;
   
 }
+#hero {
+    padding-top: 32px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+p.summary {
+    padding-bottom: 48px;
+    width: 700px;
+}
+
 
 p {
     margin-left: 50px;
@@ -107,18 +125,20 @@ section.skills {
     list-style: none;
     margin-left: 100px;
 }
-section.experience {
-    height: 680px;
+#experience {
+  
     background-color: #B8D6F0;
+    padding-bottom: 48px;
 }
 
 h1.experience {
 padding-top: 48px;
+padding-bottom: 0;
 }
 
-p.experience {
+/* p.experience {
     margin-top: 20px;
-}
+} */
 
 h1.education {
     padding-top: 48px;
@@ -127,17 +147,77 @@ h1.education {
 .education {
     padding-bottom: 28px;
 }
-section.footer {
+footer {
     background-color: #AEDECF;
-    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-ul.footerInlineBlock {
-    display: inline-flex;
+.footer p {
+    margin-left: 20px;
+}
+ul.footer{
     list-style: none;
-    justify-content: space-evenly;
+    display: inline-flex;
+    float: right;
+    
 }
+.social {
+    margin-left: 30px;
 
-@media only screen and (max-width: 600) {
-    grid-template-rows: ;
+}
+@media only screen and (max-width: 600px) {
+
+    img.hamburgerMenu  {
+        padding-right: 50px;
+        display: flex;
+    }
+
+    p.summary {
+        width: 400px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+
+    ul.inlineBlock {
+        display: none;
+    
+    }
+
+    #hero {
+
+        flex-direction: column;
+    }
+
+    #heroImage {
+        padding-right: 0;
+        padding-top: 40px;
+    }
+
+    .skills h1 {
+        padding-bottom: 0px;
+    }
+
+    section.skills {
+        flex-direction: column;
+        height: 750px;
+    }
+
+    #technicalSkills {
+        flex-direction: column;
+        margin-left: -100px;
+       
+    }
+
+    #languageSkills {
+        flex-direction: column;
+        margin-left: -50px;
+    }
+
+    .social {
+        height: 30px;
+    }
+
 }
