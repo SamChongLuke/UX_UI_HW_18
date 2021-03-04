@@ -25,6 +25,10 @@ $("#nav").hover(function(){
       $("#nav3").css("text-decoration", "none");
   });
 
+  $("#nav2").on("click", function(){
+    window.location.replace('https://samchongluke.github.io/UX_UI_HW_20/');
+});
+
 $("#resumeLink").mouseover(function(){
     $("#resumeLink").css("background-color", "#AEDECF");
     $("#resumeLink").css("border-color", "#AEDECF");
@@ -47,12 +51,6 @@ $("#resumeLink").mouseover(function(){
         '_blank'
       );
   });
-
-$(".logo").on("click", function(){
-    window.location.replace('https://samchongluke.github.io/UX_UI_HW_19/');
-
-});
-
 
 $("#linkedin").on("click", function(){
     window.open('https://www.linkedin.com/in/samantha-chong-luke-363796102/');
